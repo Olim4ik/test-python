@@ -13,7 +13,9 @@ def main():
                 print(f"Contact {name} deleted")
             else:
                 print("Contact {name} not found")
+        elif command == '3':
+            for name, phone in command.items():
+                print(f"{name} - {phone}")
         
-        print(contacts)
 
 main()
